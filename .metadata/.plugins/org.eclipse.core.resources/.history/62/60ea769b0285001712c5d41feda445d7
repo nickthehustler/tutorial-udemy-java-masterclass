@@ -8,12 +8,11 @@
 <title>Organization home page</title>
 </head>
 <body>
-	<h2 align="center" style="color:#DF0101">Welome! <c:out value="${greeting}"></c:out></h2>
-	<hr/>
-	<h1 align="center">Organization Details</h1>
+	<h1>Organization home page</h1>
 	<c:set var="contextPath" value="${pageContext.request.contextPath}" />
-	<div style="text-align:center">
-		<a href="${contextPath}/Location" style="font-size: 30px">Click here to get organization details for your location</a>
-	</div>
+	<ul>
+		<li><a href="${contextPath}/jstlsql">List organization using JSTL sql tags</a><br/></li>
+		<li><a href="${contextPath}/service">Listing  organizations using Service</a><br/></li>
+	</ul>
 </body>
 </html>

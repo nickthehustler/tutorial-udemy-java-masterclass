@@ -9,7 +9,7 @@
 </head>
 <body>
 	<h2 align="center" style="color:#DF0101">Welome! <c:out value="${greeting}"></c:out></h2>
-	<hr/>
+	<br/>
 	<h1 align="center">Organization Details</h1>
 	<c:set var="contextPath" value="${pageContext.request.contextPath}" />
 	<div style="text-align:center">

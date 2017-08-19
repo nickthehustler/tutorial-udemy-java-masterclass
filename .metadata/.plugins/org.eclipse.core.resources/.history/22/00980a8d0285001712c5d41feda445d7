@@ -14,8 +14,6 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
 import org.springframework.web.servlet.view.JstlView;
 import org.springframework.web.servlet.view.UrlBasedViewResolver;
 
-import com.timbuchalka.springdemo.interceptors.HeaderInterceptor;
-
 @Configuration
 @ComponentScan("com.timbuchalka.springdemo")
 @EnableWebMvc
