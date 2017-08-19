@@ -2631,3 +2631,55 @@ org.eclipse.core.runtime.CoreException: Launch configuration NamedJdbcTemplateAp
 2017-08-19 13:31:13,516 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-08-19 13:31:13,517 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-08-19 13:31:13,517 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-interceptor-demo-1/src/test/resources
+2017-08-19 13:35:06,260 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:35:06,260 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-19 13:35:06,261 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:35:06,261 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-interceptor-demo-1/src/test/resources
+2017-08-19 13:35:28,485 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:35:28,486 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-19 13:35:28,486 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:35:28,487 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-interceptor-demo-1/src/test/resources
+2017-08-19 13:35:39,777 [Worker-504] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:35:39,778 [Worker-504] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-19 13:35:39,778 [Worker-504] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:35:39,779 [Worker-504] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-interceptor-demo-1/src/test/resources
+2017-08-19 13:35:50,153 [Worker-501] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:35:50,154 [Worker-501] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-19 13:35:50,154 [Worker-501] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:35:50,155 [Worker-501] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-interceptor-demo-1/src/test/resources
+2017-08-19 13:36:12,709 [Worker-499] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:36:12,710 [Worker-499] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-19 13:36:12,710 [Worker-499] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:36:12,711 [Worker-499] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-interceptor-demo-1/src/test/resources
+2017-08-19 13:37:39,655 [Worker-504] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:37:39,655 [Worker-504] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-19 13:37:39,655 [Worker-504] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:37:39,657 [Worker-504] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-interceptor-demo-1/src/test/resources
+2017-08-19 13:39:36,796 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:39:36,796 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-19 13:39:36,797 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:39:36,797 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-interceptor-demo-1/src/test/resources
+2017-08-19 13:40:25,864 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:40:25,865 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-19 13:40:25,865 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:40:25,867 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-interceptor-demo-1/src/test/resources
+2017-08-19 13:40:33,574 [Worker-509] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:40:33,574 [Worker-509] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-19 13:40:33,575 [Worker-509] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:40:33,576 [Worker-509] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-interceptor-demo-1/src/test/resources
+2017-08-19 13:49:05,717 [Worker-507] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:49:05,719 [Worker-507] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-19 13:49:05,720 [Worker-507] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:49:05,720 [Worker-507] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-interceptor-demo-1/src/test/resources
+2017-08-19 13:49:21,633 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:49:21,634 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-19 13:49:21,634 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:49:21,635 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-interceptor-demo-1/src/test/resources
+2017-08-19 13:51:37,433 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:51:37,434 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-19 13:51:37,434 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:51:37,436 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-interceptor-demo-1/src/test/resources
+2017-08-19 13:51:47,100 [Worker-509] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:51:47,100 [Worker-509] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-19 13:51:47,100 [Worker-509] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-19 13:51:47,102 [Worker-509] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-interceptor-demo-1/src/test/resources
