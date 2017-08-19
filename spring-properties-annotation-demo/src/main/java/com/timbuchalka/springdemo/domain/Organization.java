@@ -1,14 +1,35 @@
 package com.timbuchalka.springdemo.domain;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.env.Environment;
+import org.springframework.stereotype.Component;
+
 import com.timbuchalka.springdemo.service.BusinessService;
 
+@Component("myorg")
 public class Organization {
 
+	@Value("${nameOfCompany}")
 	private String companyName;
+	
+	@Value("${startUpYear}")	
 	private int yearOfIncorporation;
+	
+	@Value("${postalCode}")
 	private String postalCode;
+	
+	@Value("${empCount:22222}")
 	private int employeeCount;
+	
+	@Value("${corporateSlogan:We build world class software!}")	
 	private String slogan;
+	
+	private String missionStatement;
+	
+	@Autowired
+	private Environment env;
+	
 	private BusinessService businessService;
 	
 	public Organization() {
@@ -60,7 +81,8 @@ public class Organization {
 
 
 	public String corporateSlogan() {
-		return slogan;
+		missionStatement = env.getProperty("statement");
+		return missionStatement + " and also " + slogan;
 	}
 
 	public String corporateService() {

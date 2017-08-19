@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=/Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/.git\:/Users/nick_x/software-projects/workspaces/tutorialspoint-spring/.git\:
+GitRepositoriesView.GitDirectories.relative=.git\:/Users/nick_x/software-projects/workspaces/tutorialspoint-spring/.git\:
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1
