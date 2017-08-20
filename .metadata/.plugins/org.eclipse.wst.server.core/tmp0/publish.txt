@@ -1,4 +1,4 @@
 #Tomcat publish data
-#Thu Aug 17 21:24:14 EDT 2017
-org.eclipse.jst.jee.server\:/binary\:/Users/nick_x/.m2/repository/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar=/Library/Tomcat/wtpwebapps/spring-mvc-handler-mapping-adapter-demo/WEB-INF/lib/spring-web-4.3.8.RELEASE.jar
-org.eclipse.jst.jee.server\:spring-mvc-handler-mapping-adapter-demo=/Library/Tomcat/wtpwebapps/spring-mvc-handler-mapping-adapter-demo
+#Sun Aug 20 14:15:07 EDT 2017
+org.eclipse.jst.jee.server\:/binary\:/Users/nick_x/.m2/repository/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar=/Library/Tomcat/wtpwebapps/spring-mvc-interceptor-demo-1/WEB-INF/lib/spring-web-4.3.8.RELEASE.jar
+org.eclipse.jst.jee.server\:spring-mvc-interceptor-demo-1=/Library/Tomcat/wtpwebapps/spring-mvc-interceptor-demo-1

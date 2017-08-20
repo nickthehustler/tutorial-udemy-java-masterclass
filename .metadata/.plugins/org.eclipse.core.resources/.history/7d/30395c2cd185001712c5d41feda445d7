@@ -36,7 +36,7 @@
 	<hr/>
 	<h2>Submit your location for a list of Organizations</h2>
 		
-		<div style="text-align:center">
+		<div>
 			<form action="listOrgs">
 				<input type="text" name="locationName"><br/>
 				<input type="submit" value="Get Organizations"><br/>
