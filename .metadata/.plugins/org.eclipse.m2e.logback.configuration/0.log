@@ -2857,3 +2857,184 @@ org.eclipse.core.runtime.CoreException: Launch configuration NamedJdbcTemplateAp
 2017-08-20 14:15:06,389 [Worker-781] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-08-20 14:15:06,389 [Worker-781] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-08-20 14:15:06,390 [Worker-781] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-interceptor-demo-1/src/test/resources
+2017-08-23 20:11:13,085 [Worker-1315] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.timbuchalka:spring-named-jdbc-template-demo-1:0.0.1-SNAPSHOT @ /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-named-jdbc-template-demo-1/pom.xml.
+2017-08-23 20:11:14,007 [Worker-1311] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:11:14,008 [Worker-1311] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-08-23 20:11:14,013 [Worker-1311] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:11:14,013 [Worker-1311] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:11:59,884 [Worker-1318] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:11:59,884 [Worker-1318] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:11:59,885 [Worker-1318] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:11:59,885 [Worker-1318] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:12:00,967 [Worker-1315] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.timbuchalka:spring-named-jdbc-template-demo-1:0.0.1-SNAPSHOT @ /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-logging-demo-1/pom.xml.
+2017-08-23 20:12:00,993 [Worker-1315] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:12:00,993 [Worker-1315] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-08-23 20:12:00,996 [Worker-1315] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:12:00,997 [Worker-1315] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:12:02,723 [Worker-1319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:12:02,724 [Worker-1319] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-08-23 20:12:02,725 [Worker-1319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:12:02,726 [Worker-1319] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:12:07,442 [Worker-1315] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration NamedJdbcTemplateApp1 references closed project spring-named-jdbc-template-demo-1
+org.eclipse.core.runtime.CoreException: Launch configuration NamedJdbcTemplateApp1 references closed project spring-named-jdbc-template-demo-1
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1280) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2017-08-23 20:12:07,443 [Worker-1315] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration NamedJdbcTemplateApp1 references closed project spring-named-jdbc-template-demo-1
+org.eclipse.core.runtime.CoreException: Launch configuration NamedJdbcTemplateApp1 references closed project spring-named-jdbc-template-demo-1
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1280) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2017-08-23 20:12:07,445 [Worker-1315] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration NamedJdbcTemplateApp1 references closed project spring-named-jdbc-template-demo-1
+org.eclipse.core.runtime.CoreException: Launch configuration NamedJdbcTemplateApp1 references closed project spring-named-jdbc-template-demo-1
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1280) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2161) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2017-08-23 20:12:47,783 [Worker-1319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:12:47,784 [Worker-1319] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-08-23 20:12:47,784 [Worker-1319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:12:47,785 [Worker-1319] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:22:28,929 [Worker-1323] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.timbuchalka:spring-named-jdbc-template-demo-1:0.0.1-SNAPSHOT @ /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-logging-demo-1/pom.xml.
+2017-08-23 20:22:29,512 [Worker-1323] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom
+2017-08-23 20:22:29,546 [Worker-1323] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom
+2017-08-23 20:22:29,564 [Worker-1323] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom
+2017-08-23 20:22:29,595 [Worker-1323] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom
+2017-08-23 20:22:29,615 [Worker-1323] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+2017-08-23 20:22:29,649 [Worker-1323] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+2017-08-23 20:22:29,800 [Worker-1323] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:22:29,803 [Worker-1323] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:22:29,804 [Worker-1323] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:22:29,804 [Worker-1323] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:22:31,111 [Worker-1324] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:22:31,112 [Worker-1324] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-08-23 20:22:31,121 [Worker-1324] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:22:31,122 [Worker-1324] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:23:14,537 [Worker-1325] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-08-23 20:23:14,721 [Worker-1325] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.timbuchalka:spring-named-jdbc-template-demo-1:0.0.1-SNAPSHOT @ /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-logging-demo-1/pom.xml.
+2017-08-23 20:23:14,819 [Worker-1325] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-logging-demo-1/src/main/java
+2017-08-23 20:23:14,819 [Worker-1325] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-logging-demo-1/src/main/resources
+2017-08-23 20:23:14,820 [Worker-1325] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-logging-demo-1/src/test/java
+2017-08-23 20:23:14,820 [Worker-1325] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-logging-demo-1/src/test/resources
+2017-08-23 20:23:14,888 [Worker-1325] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-08-23 20:23:15,452 [Worker-1322] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:23:15,453 [Worker-1322] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-08-23 20:23:15,463 [Worker-1322] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:23:15,464 [Worker-1322] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:23:40,838 [Worker-1311] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-08-23 20:23:40,984 [Worker-1311] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.timbuchalka:spring-named-jdbc-template-demo-1:0.0.1-SNAPSHOT @ /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-logging-demo-1/pom.xml.
+2017-08-23 20:23:41,117 [Worker-1311] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-logging-demo-1/src/main/java
+2017-08-23 20:23:41,118 [Worker-1311] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-logging-demo-1/src/main/resources
+2017-08-23 20:23:41,118 [Worker-1311] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-logging-demo-1/src/test/java
+2017-08-23 20:23:41,118 [Worker-1311] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-logging-demo-1/src/test/resources
+2017-08-23 20:23:41,151 [Worker-1311] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-08-23 20:23:41,727 [Worker-1325] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:23:41,729 [Worker-1325] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-08-23 20:23:41,735 [Worker-1325] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:23:41,736 [Worker-1325] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:24:59,248 [Worker-1322] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:24:59,250 [Worker-1322] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-08-23 20:24:59,251 [Worker-1322] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:24:59,252 [Worker-1322] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:25:24,671 [Worker-1325] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:25:24,671 [Worker-1325] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-08-23 20:25:24,672 [Worker-1325] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:25:24,672 [Worker-1325] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:27:25,388 [Worker-1326] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:27:25,390 [Worker-1326] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-08-23 20:27:25,390 [Worker-1326] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:27:25,391 [Worker-1326] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:27:40,917 [Worker-1324] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:27:40,918 [Worker-1324] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-08-23 20:27:40,918 [Worker-1324] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:27:40,918 [Worker-1324] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:28:38,990 [Worker-1327] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
+2017-08-23 20:28:39,043 [Worker-1327] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
+2017-08-23 20:28:39,068 [Worker-1327] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.25
+2017-08-23 20:28:39,225 [Worker-1324] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:28:39,225 [Worker-1324] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:28:39,226 [Worker-1324] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:28:39,227 [Worker-1324] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:40:33,615 [Worker-1329] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:40:33,615 [Worker-1329] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-08-23 20:40:33,616 [Worker-1329] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:40:33,616 [Worker-1329] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:43:51,622 [Worker-1330] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:43:51,623 [Worker-1330] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-08-23 20:43:51,624 [Worker-1330] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:43:51,625 [Worker-1330] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:47:58,943 [Worker-1325] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:47:58,946 [Worker-1325] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-08-23 20:47:58,947 [Worker-1325] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:47:58,948 [Worker-1325] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:48:44,407 [Worker-1336] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:48:44,408 [Worker-1336] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-08-23 20:48:44,409 [Worker-1336] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:48:44,409 [Worker-1336] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:51:57,238 [Worker-1335] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:51:57,239 [Worker-1335] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-08-23 20:51:57,239 [Worker-1335] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:51:57,240 [Worker-1335] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-23 20:55:38,796 [Worker-1325] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:55:38,797 [Worker-1325] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-08-23 20:55:38,797 [Worker-1325] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 20:55:38,798 [Worker-1325] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

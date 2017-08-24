@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.timbuchalka.springdemo.NamedJdbcTemplateApp1&apos; to &apos;LoggingApp&apos;&#x0A;- Original project: &apos;spring-logging-demo-1&apos;&#x0A;- Original element: &apos;com.timbuchalka.springdemo.NamedJdbcTemplateApp1&apos;&#x0A;- Renamed element: &apos;com.timbuchalka.springdemo.LoggingApp&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;NamedJdbcTemplateApp1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.timbuchalka.springdemo{NamedJdbcTemplateApp1.java[NamedJdbcTemplateApp1" matchStrategy="1" name="LoggingApp" qualified="false" references="true" similarDeclarations="false" stamp="1503533567210" textual="false" version="1.0"/>
+</session>
