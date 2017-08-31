@@ -20,6 +20,7 @@ public class LoggingApp {
 	private DaoUtils daoUtils;
 
 	public void actionMethod() {
+		dao.cleanup();
 		
 		// Create seed data.
 		daoUtils.createSeedData(dao);
