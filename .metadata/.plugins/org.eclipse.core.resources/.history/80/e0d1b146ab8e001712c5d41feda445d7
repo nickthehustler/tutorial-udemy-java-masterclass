@@ -1,0 +1,3 @@
+log4j.rootLogger=All, STDOUT
+log4j.appender.STDOUT=org.apache.log4j.ConsoleAppender
+log4j.appender.STDOUT=org.apache.log4j.PatternLayout
