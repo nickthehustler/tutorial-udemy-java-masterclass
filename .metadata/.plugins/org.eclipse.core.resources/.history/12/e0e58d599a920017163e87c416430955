@@ -1,0 +1,41 @@
+package com.timbuchalka.springdemo.interceptors;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
+import org.springframework.web.servlet.HandlerInterceptor;
+import org.springframework.web.servlet.ModelAndView;
+
+@Service
+public class ExecutionTimerInterceptor implements HandlerInterceptor {
+	
+	private static Logger LOGGER = LoggerFactory.getLogger(ExecutionTimerInterceptor.class);
+	long PREHANDLE_TIME = 0;
+	long POSTHANDLE_TIME = 0;
+	long AFTER_COMPLETION_TIME = 0;
+	
+	@Override
+	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
+			throws Exception {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler,
+			ModelAndView modelAndView) throws Exception {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex)
+			throws Exception {
+		// TODO Auto-generated method stub
+
+	}
+
+}
