@@ -1,4 +1,4 @@
 #Tomcat publish data
-#Sun Aug 20 14:15:07 EDT 2017
-org.eclipse.jst.jee.server\:/binary\:/Users/nick_x/.m2/repository/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar=/Library/Tomcat/wtpwebapps/spring-mvc-interceptor-demo-1/WEB-INF/lib/spring-web-4.3.8.RELEASE.jar
-org.eclipse.jst.jee.server\:spring-mvc-interceptor-demo-1=/Library/Tomcat/wtpwebapps/spring-mvc-interceptor-demo-1
+#Thu Sep 07 19:46:30 EDT 2017
+org.eclipse.jst.jee.server\:/binary\:/Users/nick_x/.m2/repository/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar=/Library/Tomcat/wtpwebapps/spring-mvc-interceptor-demo-2/WEB-INF/lib/spring-web-4.3.8.RELEASE.jar
+org.eclipse.jst.jee.server\:spring-mvc-interceptor-demo-2=/Library/Tomcat/wtpwebapps/spring-mvc-interceptor-demo-2
