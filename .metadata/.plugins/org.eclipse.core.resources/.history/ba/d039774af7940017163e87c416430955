@@ -1,0 +1,5 @@
+package com.timbuchalka.springdemo.controller.test;
+
+public class RequestMappingAndParamDemoController {
+
+}

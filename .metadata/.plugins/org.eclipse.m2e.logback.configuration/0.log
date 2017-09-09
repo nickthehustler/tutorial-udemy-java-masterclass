@@ -3476,3 +3476,63 @@ org.eclipse.core.runtime.CoreException: Launch configuration LoggingApp referenc
 	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
 	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2017-09-07 20:01:00,878 [Worker-802] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.timbuchalka:spring-mvc-interceptor-demo-2:0.0.1-SNAPSHOT @ /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-interceptor-demo-3/pom.xml.
+2017-09-07 20:01:01,262 [Worker-802] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-07 20:01:01,263 [Worker-802] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-07 20:01:01,268 [Worker-802] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-07 20:01:01,268 [Worker-802] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-interceptor-demo-3/src/test/resources
+2017-09-07 20:01:02,377 [Worker-801] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-07 20:01:02,380 [Worker-801] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-07 20:01:02,381 [Worker-801] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-07 20:01:02,382 [Worker-801] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-interceptor-demo-3/src/test/resources
+2017-09-07 20:02:53,504 [Worker-799] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.timbuchalka:spring-mvc-interceptor-demo-2:0.0.1-SNAPSHOT @ /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-request-mapping-param-demo/pom.xml.
+2017-09-07 20:02:53,837 [Worker-799] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-07 20:02:53,838 [Worker-799] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-07 20:02:53,843 [Worker-799] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-07 20:02:53,843 [Worker-799] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-request-mapping-param-demo/src/test/resources
+2017-09-07 20:02:55,040 [Worker-807] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-07 20:02:55,042 [Worker-807] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-07 20:02:55,044 [Worker-807] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-07 20:02:55,044 [Worker-807] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-request-mapping-param-demo/src/test/resources
+2017-09-07 20:03:59,772 [Worker-803] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.timbuchalka:/spring-mvc-request-mapping-param-demo:0.0.1-SNAPSHOT @ /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-request-mapping-param-demo/pom.xml.
+2017-09-07 20:04:00,237 [Worker-803] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-07 20:04:00,239 [Worker-803] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-07 20:04:00,240 [Worker-803] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-07 20:04:00,241 [Worker-803] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-request-mapping-param-demo/src/test/resources
+2017-09-07 20:04:00,241 [Worker-803] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of spring-mvc-request-mapping-param-demo
+2017-09-07 20:04:00,241 [Worker-803] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for spring-mvc-request-mapping-param-demo
+2017-09-07 20:04:00,243 [Worker-803] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-07 20:04:18,100 [Worker-808] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.timbuchalka:spring-mvc-request-mapping-param-demo:0.0.1-SNAPSHOT @ /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-request-mapping-param-demo/pom.xml.
+2017-09-07 20:04:18,410 [Worker-808] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-07 20:04:18,411 [Worker-808] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-07 20:04:18,412 [Worker-808] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-07 20:04:18,412 [Worker-808] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-request-mapping-param-demo/src/test/resources
+2017-09-07 20:04:18,413 [Worker-808] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of spring-mvc-request-mapping-param-demo
+2017-09-07 20:04:18,413 [Worker-808] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for spring-mvc-request-mapping-param-demo
+2017-09-07 20:04:18,414 [Worker-808] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-07 20:04:35,565 [Worker-801] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-09-07 20:04:35,665 [Worker-801] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.timbuchalka:spring-mvc-request-mapping-param-demo:0.0.1-SNAPSHOT @ /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-request-mapping-param-demo/pom.xml.
+2017-09-07 20:04:35,974 [Worker-801] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-mvc-request-mapping-param-demo/src/main/java
+2017-09-07 20:04:35,974 [Worker-801] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-mvc-request-mapping-param-demo/src/main/resources
+2017-09-07 20:04:35,975 [Worker-801] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-mvc-request-mapping-param-demo/src/test/java
+2017-09-07 20:04:36,164 [Worker-801] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for spring-mvc-request-mapping-param-demo
+2017-09-07 20:04:36,172 [Worker-801] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-09-07 20:04:36,359 [Worker-803] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-07 20:04:36,360 [Worker-803] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-07 20:04:36,372 [Worker-803] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-07 20:04:36,373 [Worker-803] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-request-mapping-param-demo/src/test/resources
+2017-09-07 20:04:36,373 [Worker-803] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of spring-mvc-request-mapping-param-demo
+2017-09-07 20:04:36,373 [Worker-803] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for spring-mvc-request-mapping-param-demo
+2017-09-07 20:04:36,376 [Worker-803] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-08 20:32:00,226 [Worker-1074] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-08 20:32:00,230 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-08 20:32:00,231 [Worker-1074] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-08 20:32:00,231 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-request-mapping-param-demo/src/test/resources
+2017-09-08 20:32:49,827 [Worker-1079] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-08 20:32:49,828 [Worker-1079] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-08 20:32:49,828 [Worker-1079] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-08 20:32:49,828 [Worker-1079] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-request-mapping-param-demo/src/test/resources
+2017-09-08 20:39:08,697 [Worker-1085] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-08 20:39:08,697 [Worker-1085] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-08 20:39:08,698 [Worker-1085] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-08 20:39:08,698 [Worker-1085] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nick_x/software-projects/workspaces/udemy-spring-masterclass/spring-mvc-request-mapping-param-demo/src/test/resources
